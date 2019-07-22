@@ -30,6 +30,7 @@ export default class App extends React.Component {
     		<Text>C. Ms John</Text>
     		<Text>D. Ms hang</Text>
     	</View>
+    	<Button title="Click me" onPress={ ()=>{ Linking.openURL('https://docs.google.com/forms/d/e/1FAIpQLSc8qpGnjqPbiQ-Idz6LtWITTfFDG_d1y7hpQgc2PgbVnA0PBg/viewform')}} />
       </View>
     );
   }
